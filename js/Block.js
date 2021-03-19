@@ -16,6 +16,7 @@ class Block{
         var angle = this.body.angle;
         var pos= this.body.position;
         push();
+          angleMode(RADIAN)
         translate(pos.x, pos.y);
         rotate(angle);
         rectMode(CENTER);
