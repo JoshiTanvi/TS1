@@ -11,6 +11,7 @@ class Stand{
       display(){
         var angle = this.body.angle;
         push();
+          angleMode(RADIAN)
         translate(this.body.position.x, this.body.position.y);
         rotate(angle);
         rectMode(CENTER);
